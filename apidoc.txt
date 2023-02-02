@@ -1,0 +1,7 @@
+********* Get All Movies *********
+http://localhost:2000/movies
+
+********* Get Movies by Filter *********
+http://localhost:2000/movies/
+
+********* Get All Movies *********
