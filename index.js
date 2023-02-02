@@ -1,4 +1,4 @@
-// const dbConnection = require('../mongo/mongoConn');
+// const getData = require('../mongo/mongoConn');
 const express = require('express');
 // let port = 2000;
 let cors = require('cors');
@@ -15,9 +15,6 @@ const app = express();
 
 app.use(cors())
 app.use(express.json());
-
-
-
 
 async function getData (){
     let result = await client.connect();
@@ -42,8 +39,16 @@ app.get('/movies', async (req, res) => {
 // GET MOVIES BY CATEGORY
 app.get('/movies/:movieId', async (req, res) => {
     let movieId = Number(req.params.movieId);
-    let data = await dbConnection();
+    let data = await getData();
     let collection = await data.collection('movies').find({category_id:movieId}, {title:1, category_id:1, category:1}).toArray();
+    console.log(collection);
+    res.send(collection);
+});
+
+app.get('/movies/:movieName', async (req, res) => {
+    let movieName = Number(req.params.movieId);
+    let data = await getData();
+    let collection = await data.collection('movies').find({title:movieName}).toArray();
     console.log(collection);
     res.send(collection);
 });
@@ -52,7 +57,7 @@ app.get('/movies/:movieId', async (req, res) => {
 
 app.get('/sort', async (req, res) => {
     let costSort = {subscription : 1}
-    let data = await dbConnection();
+    let data = await getData();
     let collection = await data.collection('movies').find().sort(costSort).toArray();
     console.log(collection);
     res.send(collection);
