@@ -2,6 +2,7 @@
 const express = require('express');
 // let port = 2000;
 let cors = require('cors');
+let bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 let PORT = process.env.PORT || 3000;
 dotenv.config();
@@ -14,7 +15,8 @@ const client = new MongoClient(url);
 const app = express();
 
 app.use(cors())
-app.use(express.json());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 async function getData (){
     let result = await client.connect();
@@ -37,18 +39,18 @@ app.get('/movies', async (req, res) => {
 
 
 // GET MOVIES BY CATEGORY
-app.get('/movies/:movieId', async (req, res) => {
-    let movieId = Number(req.params.movieId);
+app.get('/categoryId/:categoryId', async (req, res) => {
+    let category_id = Number(req.params.categoryId);
     let data = await getData();
-    let collection = await data.collection('movies').find({category_id:movieId}, {title:1, category_id:1, category:1}).toArray();
+    let collection = await data.collection('movies').find({category_id}, {title:1, category_id:1, category:1}).toArray();
     console.log(collection);
     res.send(collection);
 });
 
-app.get('/movies/:movieName', async (req, res) => {
-    let movieName = Number(req.params.movieId);
+app.get('/movieId/:movieId', async (req, res) => {
+    let movie_id = Number(req.params.movieId);
     let data = await getData();
-    let collection = await data.collection('movies').find({title:movieName}).toArray();
+    let collection = await data.collection('movies').find({movie_id}).toArray();
     console.log(collection);
     res.send(collection);
 });
@@ -62,4 +64,6 @@ app.get('/sort', async (req, res) => {
     console.log(collection);
     res.send(collection);
 });
+
+
 app.listen(PORT);

@@ -1,0 +1,203 @@
+[
+    {
+        "id": 1,
+        "category_id": 1,
+        "category": "kids",
+        "title": "The Jungle Book",
+        "movie_description": "The Jungle Book is a 2016 American adventure drama film directed and produced by Jon Favreau, written by Justin Marks and produced by Walt Disney Pictures. Based on Rudyard Kipling's eponymous collective works",
+        "img": "https://i.ibb.co/3WSrB7Q/p-thejunglebook2016-19751-6b8cfcec.jpg",
+        "subscription": "₹79",
+        "movie_id": 1
+
+    },
+    {
+        "id": 2,
+        "category_id": 1,
+        "title": "Koi Mil Gaya",
+        "category": "kids",
+        "movie_description": "Rohit is a young man with a mental disability that leaves him with a mental age of a 10-year-old. When he accidentally establishes communication with an alien race, they visit Earth, and leave one of them behind. Rohit names the alien Jadoo and becomes friends with him.",
+        "img": "https://i.ibb.co/xqvjRfB/koi-mil-gaya-bollywood-movies-for-kids.jpg",
+        "subscription": "₹79",
+        "movie_id": 2
+    },
+    {
+        "id": 3,
+        "category_id": 1,
+        "title": "Oggy and the Cockroaches",
+        "category": "kids",
+        "movie_description": "Oggy and the Cockroaches is a French comedy-adventure animated television series produced by Gaumont Multimedia (first two seasons) and Xilam Animation",
+        "img": "https://i.ibb.co/3WSrB7Q/p-thejunglebook2016-19751-6b8cfcec.jpg",
+        "subscription": "₹109",
+        "movie_id": 3
+    },
+    {
+        "id": 4,
+        "category_id": 1,
+        "title": "Ratatouille",
+        "category": "kids",
+        "movie_description": "Ratatouille is a 2007 American computer-animated comedy-drama film produced by Pixar Animation Studios and released by Walt Disney Pictures.",
+        "img": "https://i.ibb.co/6wLpv0w/MV5-BODU4-Zj-Jm-Mm-It-Yj-Fh-Ni00-MTU4-LWE1-Zm-Et-Nz-U1-NDk0-YTFh-Ym-Ew-Xk-Ey-Xk-Fqc-Gde-QXVy-MTQ4-NT.jpg",
+        "subscription": "₹159",
+        "movie_id": 4
+    },
+    {
+        "id": 5,
+        "category_id": 1,
+        "title": "Kung Fu Panda",
+        "category": "kids",
+        "movie_description": "Kung Fu Panda 3 is a 2016 computer-animated martial arts comedy film produced by DreamWorks Animation, China Film Group Corporation, Oriental DreamWork",
+        "img": "https://i.ibb.co/1bqk2TM/MV5-BMTUy-Nzgx-Njg2-M15-BMl5-Ban-Bn-Xk-Ft-ZTgw-MTY1-NDI1-Nj-E-V1-FMjpg-UX1000.jpg",
+        "subscription": "₹99",
+        "movie_id": 5
+    },
+    {
+        "id": 6,
+        "category_id": 2,
+        "title": "Hera Pheri",
+        "category": "comedy",
+        "movie_description": "Three unemployed men look for answers to all their money problems - but when their opportunity arrives, will they know what to do with it?",
+        "img": "https://i.ibb.co/1bqk2TM/MV5-BMTUy-Nzgx-Njg2-M15-BMl5-Ban-Bn-Xk-Ft-ZTgw-MTY1-NDI1-Nj-E-V1-FMjpg-UX1000.jpg",
+        "subscription": "₹229",
+        "movie_id": 6
+    },
+    {
+        "id": 7,
+        "category_id": 2,
+        "title": "Hungama",
+        "movie_description": "The story of a bunch of misfits whose misconception about each others backgrounds end up in a series of chaotic, yet comic outcomes.",
+        "img": "https://i.ibb.co/1bqk2TM/MV5-BMTUy-Nzgx-Njg2-M15-BMl5-Ban-Bn-Xk-Ft-ZTgw-MTY1-NDI1-Nj-E-V1-FMjpg-UX1000.jpg",
+        "subscription": "₹79",
+        "movie_id": 7
+    },
+    {
+        "id": 8,
+        "category_id": 2,
+        "title": "Khatta Meetha",
+        "category": "comedy",
+        "movie_description": "Kung Fu Panda 3 is a 2016 computer-animated martial arts comedy film produced by DreamWorks Animation, China Film Group Corporation, Oriental DreamWork",
+        "img": "https://i.ibb.co/1bqk2TM/MV5-BMTUy-Nzgx-Njg2-M15-BMl5-Ban-Bn-Xk-Ft-ZTgw-MTY1-NDI1-Nj-E-V1-FMjpg-UX1000.jpg",
+        "subscription": "₹49",
+        "movie_id": 8
+    },
+    {
+        "id": 9,
+        "category_id": 2,
+        "title": "Welcome",
+        "category": "comedy",
+        "movie_description": "Kung Fu Panda 3 is a 2016 computer-animated martial arts comedy film produced by DreamWorks Animation, China Film Group Corporation, Oriental DreamWork",
+        "img": "https://i.ibb.co/1bqk2TM/MV5-BMTUy-Nzgx-Njg2-M15-BMl5-Ban-Bn-Xk-Ft-ZTgw-MTY1-NDI1-Nj-E-V1-FMjpg-UX1000.jpg",
+        "subscription": "₹149",
+        "movie_id": 9
+    },
+    {
+        "id": 10,
+        "category_id": 2,
+        "title": "Dhol",
+        "category": "comedy",
+        "movie_description": "Kung Fu Panda 3 is a 2016 computer-animated martial arts comedy film produced by DreamWorks Animation, China Film Group Corporation, Oriental DreamWork",
+        "img": "https://i.ibb.co/dcNy5KK/dhol-et00000012-24-03-2017-16-33-11.jpg",
+        "subscription": "₹149",
+        "movie_id": 10
+    },
+    {
+        "id": 11,
+        "category_id": 3,
+        "category": "action",
+        "title": "RRR",
+        "movie_description": "RRR is a 2022 Indian Telugu-language epic action drama film directed by S. S. Rajamouli, who co-wrote the film with V",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹39",
+        "movie_id": 11
+    },
+    {
+        "id": 12,
+        "category_id": 3,
+        "title": "Shamshera",
+        "category": "action",
+        "movie_description": "Shamshera is a 2022 Indian Hindi-language period action drama film produced by Aditya Chopra under Yash Raj Films and directed by Karan Malhotra.",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹139",
+        "movie_id": 12
+    },
+    {
+        "id": 13,
+        "category_id": 3,
+        "title": "Pushpa",
+        "category": "action",
+        "movie_description": "Pushpa: The Rise – Part 01 is a 2021 Indian Telugu-language action drama film[16] written and directed by Sukumar. It stars Allu Arjun as the titular character alongside Fahadh Faasil",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹0",
+        "movie_id": 13
+    },
+    {
+        "id": 14,
+        "category_id": 3,
+        "title": "WAR",
+        "category": "action",
+        "movie_description": "War is a 2019 Indian Hindi-language spy action-thriller film directed by Siddharth Anand, who co-wrote the film's script with Aditya Chopra",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹0",
+        "movie_id": 14
+    },
+    {
+        "id": 15,
+        "category_id": 3,
+        "title": "Tanhaji",
+        "category": "action",
+        "movie_description": "Tanhaji: The Unsung Warrior is a 2020 Indian historical action film, co-written and directed by Om Raut and produced by Bhushan Kumar",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹189",
+        "movie_id": 15
+    },
+    {
+        "id": 16,
+        "category_id": 4,
+        "title": "Drishyam 2",
+        "category": "thriller",
+        "movie_description": "Drishyam 2 is a 2022 Indian Hindi-language crime thriller film directed by Abhishek Pathak, adapted from the 2021",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹169",
+        "movie_id": 16
+    },
+    {
+        "id": 17,
+        "category_id": 4,
+        "title": "Drishyam ",
+        "category": "thriller",
+        "movie_description": "Drishyam is a 2015 Indian Hindi-language crime thriller film directed by Abhishek Pathak, adapted from the 2021",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹123",
+        "movie_id": 17
+    },
+    {
+        "id": 18,
+        "category_id": 5,
+        "title": "Shiddhat",
+        "category": "romance",
+        "movie_description": "Shiddat: Journey Beyond Love, or simply Shiddat ( transl. Passion), is a 2021 Indian Hindi-language romantic drama film directed by Kunal Deshmukh",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹59",
+        "movie_id": 18
+    },
+    {
+        "id": 19,
+        "category_id": 5,
+        "title": "Love aaj kal 2",
+        "category": "romance",
+        "movie_description": "Love Aaj Kal ( transl. Love nowadays) is a 2020 Indian Hindi-language romantic comedy-drama film directed by Imtiaz Ali and starring Kartik Aaryan",
+        "img": "https://i.ibb.co/NW3jzpq/1920x770a6d68155d8ff496797e2a61c25d8b4c25148b94387694df09dace024ac225eeb.webp",
+        "subscription": "₹109",
+        "movie_id": 19
+
+    },
+    {
+        "id": 20,
+        "category_id": 5,
+        "title": "Likka Chuppi",
+        "category": "romance",
+        "movie_description": "Luka Chuppi ( transl. Hide and seek) is a 2019 Indian Indian Hindi-language romantic comedy film directed by Laxman Utekar and produced by Dinesh Vijan's",
+        "img": "https://i.ibb.co/YDvFhj8/images-q-tbn-ANd9-Gc-SHDq0-RNEZ1od03c-G7-XEA0-LVXBPw-ZKMWrz-HBg-Sbf-E0-HQ0r-Far-R.jpg",
+        "subscription": "₹129",
+        "movie_id": 20
+    }
+]

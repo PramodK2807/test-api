@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category": "Kids"
+    },
+    {
+        "id": 2,
+        "category": "Comedy"
+    },
+    {
+        "id": 3,
+        "category": "Action"
+    },
+    {
+        "id": 4,
+        "category": "Thriller"
+    },
+    {
+        "id": 5,
+        "category": "Romance"
+    }
+]
